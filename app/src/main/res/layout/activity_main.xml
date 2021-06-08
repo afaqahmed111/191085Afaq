@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/img_logo1"
+        />
+
+    <TextView
+        android:id="@+id/tv_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Services"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We generally provide four services that inlcude:"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/tv_services"
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="15dp"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:layout_below="@id/tv_desc"
+        android:textColor="@color/blue"
+        />
+    <TextView
+        android:id="@+id/tv_electrician"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="27dp"
+        android:textColor="@color/black"
+        android:text="Electrician"
+        android:layout_below="@id/tv_1"
+        />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:text="2."
+        android:layout_below="@id/tv_electrician"
+        />
+    <TextView
+        android:id="@+id/tv_mechanic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:textColor="@color/black"
+        android:text="Mechanic"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/tv_2"
+        />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3."
+        android:textColor="@color/blue"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_mechanic"
+        />
+
+    <TextView
+        android:id="@+id/tv_plumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="Plumber"
+        android:layout_below="@id/tv_3"
+        />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4."
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:layout_below="@id/tv_plumber"
+        />
+
+    <TextView
+        android:id="@+id/tv_carpenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="Carpenter"
+        android:layout_below="@id/tv_4"
+        />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You status: GUEST"
+        android:textColor="@color/blue"
+        android:layout_below="@id/tv_carpenter"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTE: You can avail only emergency service"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_below="@id/tv_status"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>
